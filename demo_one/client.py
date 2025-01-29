@@ -10,7 +10,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import ast
 
-
 # Load environment variables from .env file
 load_dotenv()
 
@@ -70,11 +69,11 @@ def generate_visualization_code(query_response: str, prompt_description: str) ->
         str: Python code for visualization.
     """
     try:
-        openai.api_key = os.getenv("OPENAI_API_KEY")
+        openai.api_key = os.getenv(OPENAI_API_KEY_ENV)
 
         system_prompt = f"""
         You are an expert data visualization assistant. 
-        Generate Python code to visualize the given data using pandas and matplotlib.
+        Generate only the Python code to visualize the given data using pandas and matplotlib.
 
         Data example:
         {query_response}
@@ -84,8 +83,10 @@ def generate_visualization_code(query_response: str, prompt_description: str) ->
         - Use matplotlib for visualizations
         - Include proper labels and titles
         - Match the visualization to the user's description
+        - Ensure the code is well-commented and easy to understand
+        - Use appropriate visualization techniques based on the data type and user's description
 
-        Only return the Python code.
+        Only return the Python code. And no additional text.
         """
 
         response = openai.chat.completions.create(
