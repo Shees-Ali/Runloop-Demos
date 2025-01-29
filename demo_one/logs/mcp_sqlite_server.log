@@ -1,0 +1,541 @@
+2025-01-29 01:37:35,984 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:37:35,989 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:37:35,989 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:37:35,989 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:37:35,995 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:37:36,000 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:37:36,001 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:37:36,004 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:37:36,005 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:37:36,006 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:37:36,007 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:37:36,009 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:37:36,009 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:37:36,011 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:37:36,012 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:37:36,014 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:37:36,014 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:37:36,017 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:37:36,017 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:37:36,020 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:37:36,020 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:37:36,022 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:37:36,022 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:37:36,023 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:37:36,025 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:37:36,027 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:37:36,027 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:37:36,029 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:37:36,029 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:38:04,079 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(Total) AS TotalSales FROM Invoice;
+2025-01-29 01:38:04,080 - mcp_sqlite_server - DEBUG - Read query returned 1 rows
+2025-01-29 01:38:04,083 - mcp_sqlite_server - INFO - Insight added to memo 333: Query executed: Show the total sales from the invoice table
+2025-01-29 01:38:04,083 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:38:04,083 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:38:04,083 - mcp_sqlite_server - INFO - Insight added to memo 222: Query executed: Show the total sales from the invoice table
+2025-01-29 01:38:04,084 - mcp_sqlite_server - INFO - Insight added to memo: Query executed: Show the total sales from the invoice table
+2025-01-29 01:42:42,587 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:42:42,588 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:42:42,589 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:42:42,589 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:42:42,595 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:42:42,600 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:42:42,602 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:42:42,607 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:42:42,608 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:42:42,611 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:42:42,611 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:42:42,613 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:42:42,614 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:42:42,616 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:42:42,617 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:42:42,619 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:42:42,619 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:42:42,621 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:42:42,621 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:42:42,624 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:42:42,624 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:42:42,626 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:42:42,628 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:42:42,629 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:42:42,630 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:42:42,632 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:42:42,632 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:42:42,634 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:42:42,635 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:42:53,470 - mcp_sqlite_server - DEBUG - Executing query: SELECT CustomerId, SUM(Total) as TotalSales
+FROM Invoice
+GROUP BY CustomerId;
+2025-01-29 01:42:53,471 - mcp_sqlite_server - DEBUG - Read query returned 59 rows
+2025-01-29 01:42:53,475 - mcp_sqlite_server - INFO - Insight added to memo 333: Query executed: Get all customer sales from the invoice table
+2025-01-29 01:42:53,475 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:42:53,475 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:42:53,475 - mcp_sqlite_server - INFO - Insight added to memo 222: Query executed: Get all customer sales from the invoice table
+2025-01-29 01:42:53,476 - mcp_sqlite_server - INFO - Insight added to memo: Query executed: Get all customer sales from the invoice table
+2025-01-29 01:43:52,400 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:43:52,401 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:43:52,401 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:43:52,402 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:43:52,408 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:43:52,416 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:43:52,417 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:43:52,420 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:43:52,420 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:43:52,423 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:43:52,424 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:43:52,426 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:43:52,427 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:43:52,429 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:43:52,434 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:43:52,437 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:43:52,438 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:43:52,439 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:43:52,440 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:43:52,442 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:43:52,443 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:43:52,445 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:43:52,447 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:43:52,448 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:43:52,449 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:43:52,451 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:43:52,452 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:43:52,453 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:43:52,454 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:43:57,483 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 01:43:57,487 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 01:43:57,513 - mcp_sqlite_server - INFO - Insight added to memo 333: Query executed: Get all sales
+2025-01-29 01:43:57,513 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:43:57,513 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:43:57,513 - mcp_sqlite_server - INFO - Insight added to memo 222: Query executed: Get all sales
+2025-01-29 01:43:57,515 - mcp_sqlite_server - INFO - Insight added to memo: Query executed: Get all sales
+2025-01-29 01:45:55,191 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:45:55,192 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:45:55,192 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:45:55,193 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:45:55,198 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:45:55,203 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:45:55,205 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:45:55,207 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:45:55,208 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:45:55,210 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:45:55,210 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:45:55,212 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:45:55,213 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:45:55,215 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:45:55,216 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:45:55,218 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:45:55,219 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:45:55,221 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:45:55,221 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:45:55,224 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:45:55,225 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:45:55,227 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:45:55,231 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:45:55,233 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:45:55,233 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:45:55,236 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:45:55,236 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:45:55,239 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:45:55,239 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:45:59,895 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 01:45:59,897 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 01:45:59,918 - mcp_sqlite_server - INFO - Insight added to memo 333: Query executed: Get all sale
+2025-01-29 01:45:59,918 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:45:59,918 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:45:59,918 - mcp_sqlite_server - INFO - Insight added to memo 222: Query executed: Get all sale
+2025-01-29 01:45:59,918 - mcp_sqlite_server - INFO - Insight added to memo: Query executed: Get all sale
+2025-01-29 01:46:23,398 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:46:23,398 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:46:23,398 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:50:01,544 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:50:01,545 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:50:01,546 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:50:01,547 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:50:01,552 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:50:01,558 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:50:01,559 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:50:01,562 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:50:01,562 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:50:01,565 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:50:01,566 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:50:01,568 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:50:01,569 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:50:01,571 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:50:01,571 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:50:01,574 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:50:01,574 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:50:01,576 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:50:01,577 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:50:01,580 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:50:01,580 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:50:01,582 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:50:01,583 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:50:01,585 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:50:01,586 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:50:01,588 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:50:01,588 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:50:01,590 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:50:01,591 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:50:10,640 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 01:50:10,643 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 01:50:10,665 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:50:10,665 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:50:20,390 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(Total) AS TotalSales FROM Invoice;
+2025-01-29 01:50:20,391 - mcp_sqlite_server - DEBUG - Read query returned 1 rows
+2025-01-29 01:50:20,393 - mcp_sqlite_server - DEBUG - Synthesizing memo with 2 insights
+2025-01-29 01:50:20,393 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:50:25,150 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:50:25,150 - mcp_sqlite_server - DEBUG - Synthesizing memo with 2 insights
+2025-01-29 01:50:25,150 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:50:25,150 - mcp_sqlite_server - DEBUG - Returning insights memo with 2 insights
+2025-01-29 01:51:14,264 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:51:14,265 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite]
+2025-01-29 01:51:14,267 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:51:14,270 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:51:14,276 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:51:14,282 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:51:14,282 - mcp_sqlite_server - DEBUG - Read query returned 0 rows
+2025-01-29 01:51:22,730 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(sales) FROM sales_table;
+2025-01-29 01:51:22,731 - mcp_sqlite_server - ERROR - Database error executing query: no such table: sales_table
+2025-01-29 01:51:22,733 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:51:22,734 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:51:34,859 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(sales) FROM invoice;
+2025-01-29 01:51:34,860 - mcp_sqlite_server - ERROR - Database error executing query: no such table: invoice
+2025-01-29 01:51:34,866 - mcp_sqlite_server - DEBUG - Synthesizing memo with 2 insights
+2025-01-29 01:51:34,866 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:51:41,812 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:51:41,812 - mcp_sqlite_server - DEBUG - Synthesizing memo with 2 insights
+2025-01-29 01:51:41,813 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:51:41,813 - mcp_sqlite_server - DEBUG - Returning insights memo with 2 insights
+2025-01-29 01:54:23,709 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:54:23,709 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite]
+2025-01-29 01:54:23,711 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:54:23,711 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:54:23,716 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:54:23,723 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:54:23,723 - mcp_sqlite_server - DEBUG - Read query returned 0 rows
+2025-01-29 01:54:43,454 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(sales) FROM sales_table;
+2025-01-29 01:54:43,455 - mcp_sqlite_server - ERROR - Database error executing query: no such table: sales_table
+2025-01-29 01:54:43,458 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:54:43,458 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:54:48,233 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:54:48,233 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:54:48,233 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:54:48,233 - mcp_sqlite_server - DEBUG - Returning insights memo with 1 insights
+2025-01-29 01:55:30,091 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:55:30,092 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite]
+2025-01-29 01:55:30,093 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:55:30,093 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:55:30,098 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:55:30,104 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:55:30,105 - mcp_sqlite_server - DEBUG - Read query returned 0 rows
+2025-01-29 01:55:37,089 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:55:37,089 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:55:45,428 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:55:45,428 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:55:45,428 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:55:45,428 - mcp_sqlite_server - DEBUG - Returning insights memo with 1 insights
+2025-01-29 01:56:05,559 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:56:05,559 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite]
+2025-01-29 01:56:05,561 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:56:05,561 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:56:05,566 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:56:05,571 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:56:05,572 - mcp_sqlite_server - DEBUG - Read query returned 0 rows
+2025-01-29 01:56:21,449 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:56:21,450 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite]
+2025-01-29 01:56:21,450 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:56:21,451 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:56:21,457 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:56:21,462 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:56:21,463 - mcp_sqlite_server - DEBUG - Read query returned 0 rows
+2025-01-29 01:56:39,198 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:56:39,199 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:56:39,199 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:56:39,200 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:56:39,204 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:56:39,210 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:56:39,211 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:56:39,214 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:56:39,214 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:56:39,217 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:56:39,218 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:56:39,219 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:56:39,220 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:56:39,222 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:56:39,223 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:56:39,225 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:56:39,226 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:56:39,227 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:56:39,228 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:56:39,230 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:56:39,231 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:56:39,233 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:56:39,233 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:56:39,235 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:56:39,235 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:56:39,238 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:56:39,238 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:56:39,241 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:56:39,242 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:56:43,996 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 01:56:44,000 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 01:56:44,018 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:56:44,019 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:56:49,990 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(Total) AS TotalSales FROM Invoice;
+2025-01-29 01:56:49,991 - mcp_sqlite_server - DEBUG - Read query returned 1 rows
+2025-01-29 01:56:49,994 - mcp_sqlite_server - DEBUG - Synthesizing memo with 2 insights
+2025-01-29 01:56:49,994 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:56:56,850 - mcp_sqlite_server - DEBUG - Executing query: SELECT FirstName, LastName FROM Employee;
+2025-01-29 01:56:56,851 - mcp_sqlite_server - DEBUG - Read query returned 8 rows
+2025-01-29 01:56:56,859 - mcp_sqlite_server - DEBUG - Synthesizing memo with 3 insights
+2025-01-29 01:56:56,860 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:57:00,447 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://sdsds
+2025-01-29 01:57:00,447 - mcp_sqlite_server - ERROR - Unknown resource path: sdsds
+2025-01-29 01:57:46,595 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:57:46,595 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:57:46,596 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:57:46,596 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:57:46,602 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:57:46,608 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:57:46,608 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:57:46,612 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:57:46,612 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:57:46,614 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:57:46,614 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:57:46,617 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:57:46,617 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:57:46,619 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:57:46,620 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:57:46,622 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:57:46,622 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:57:46,624 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:57:46,626 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:57:46,627 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:57:46,627 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:57:46,629 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:57:46,629 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:57:46,633 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:57:46,633 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:57:46,635 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:57:46,635 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:57:46,637 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:57:46,638 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:57:51,871 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(Total) AS TotalSales FROM Invoice;
+2025-01-29 01:57:51,871 - mcp_sqlite_server - DEBUG - Read query returned 1 rows
+2025-01-29 01:57:51,875 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:57:51,875 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:57:54,521 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:57:54,521 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:57:54,521 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:57:54,521 - mcp_sqlite_server - DEBUG - Returning insights memo with 1 insights
+2025-01-29 01:58:25,532 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:58:25,533 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:58:25,533 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:58:25,533 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:58:25,539 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:58:25,544 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:58:25,545 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:58:25,548 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:58:25,549 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:58:25,551 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:58:25,551 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:58:25,553 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:58:25,554 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:58:25,556 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:58:25,557 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:58:25,559 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:58:25,559 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:58:25,561 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:58:25,563 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:58:25,564 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:58:25,565 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:58:25,567 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:58:25,568 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:58:25,569 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:58:25,570 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:58:25,572 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:58:25,573 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:58:25,575 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:58:25,575 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:58:30,121 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 01:58:30,125 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 01:58:30,143 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:58:30,143 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:58:32,734 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:58:32,734 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:58:32,734 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:58:32,734 - mcp_sqlite_server - DEBUG - Returning insights memo with 1 insights
+2025-01-29 01:59:22,069 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 01:59:22,070 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 01:59:22,070 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 01:59:22,071 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 01:59:22,075 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 01:59:22,081 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 01:59:22,082 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 01:59:22,085 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 01:59:22,085 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 01:59:22,087 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 01:59:22,088 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:59:22,090 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 01:59:22,091 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 01:59:22,093 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 01:59:22,094 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 01:59:22,096 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 01:59:22,096 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:59:22,098 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 01:59:22,098 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:59:22,101 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 01:59:22,101 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 01:59:22,103 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 01:59:22,104 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:59:22,106 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 01:59:22,106 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:59:22,109 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 01:59:22,109 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 01:59:22,111 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 01:59:22,112 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 01:59:27,347 - mcp_sqlite_server - DEBUG - Executing query: SELECT SUM(Total) AS TotalSales FROM Invoice;
+2025-01-29 01:59:27,348 - mcp_sqlite_server - DEBUG - Read query returned 1 rows
+2025-01-29 01:59:27,351 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:59:27,351 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:59:28,364 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 01:59:28,364 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 01:59:28,364 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 01:59:28,364 - mcp_sqlite_server - DEBUG - Returning insights memo with 1 insights
+2025-01-29 02:00:38,605 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 02:00:38,605 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 02:00:38,606 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 02:00:38,606 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 02:00:38,611 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 02:00:38,616 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 02:00:38,618 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 02:00:38,620 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 02:00:38,621 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 02:00:38,623 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 02:00:38,623 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:00:38,625 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 02:00:38,626 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 02:00:38,628 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 02:00:38,628 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 02:00:38,630 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 02:00:38,630 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:00:38,634 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 02:00:38,634 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:00:38,636 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 02:00:38,637 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 02:00:38,639 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 02:00:38,640 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:00:38,641 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 02:00:38,642 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:00:38,644 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 02:00:38,644 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:00:38,646 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 02:00:38,647 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:00:42,944 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 02:00:42,946 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 02:00:42,966 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 02:00:42,966 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 02:00:44,613 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 02:00:44,613 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 02:00:44,613 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 02:00:44,613 - mcp_sqlite_server - DEBUG - Returning insights memo with 1 insights
+2025-01-29 02:01:18,343 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 02:01:18,344 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 02:01:18,344 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 02:01:18,345 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 02:01:18,350 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 02:01:18,357 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 02:01:18,358 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 02:01:18,361 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 02:01:18,361 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 02:01:18,364 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 02:01:18,365 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:01:18,367 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 02:01:18,368 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 02:01:18,371 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 02:01:18,371 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 02:01:18,374 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 02:01:18,375 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:01:18,377 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 02:01:18,378 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:01:18,380 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 02:01:18,380 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 02:01:18,383 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 02:01:18,383 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:01:18,385 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 02:01:18,387 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:01:18,389 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 02:01:18,389 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:01:18,391 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 02:01:18,392 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:01:20,924 - mcp_sqlite_server - DEBUG - Handling read_resource request for URI: memo://insights
+2025-01-29 02:01:20,924 - mcp_sqlite_server - DEBUG - Synthesizing memo with 0 insights
+2025-01-29 02:09:05,055 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 02:09:05,056 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 02:09:05,057 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 02:09:05,057 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 02:09:05,063 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 02:09:05,069 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 02:09:05,070 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 02:09:05,073 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 02:09:05,073 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 02:09:05,076 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 02:09:05,076 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:09:05,078 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 02:09:05,079 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 02:09:05,081 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 02:09:05,085 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 02:09:05,089 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 02:09:05,089 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:09:05,092 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 02:09:05,092 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:09:05,094 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 02:09:05,095 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 02:09:05,097 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 02:09:05,098 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:09:05,100 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 02:09:05,100 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:09:05,102 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 02:09:05,102 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:09:05,105 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 02:09:05,106 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:09:11,339 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice;
+2025-01-29 02:09:11,341 - mcp_sqlite_server - DEBUG - Read query returned 412 rows
+2025-01-29 02:09:11,360 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 02:09:11,361 - mcp_sqlite_server - DEBUG - Generated basic memo format
+2025-01-29 02:18:47,066 - mcp_sqlite_server - INFO - Starting MCP SQLite Server
+2025-01-29 02:18:47,067 - mcp_sqlite_server - INFO - Starting SQLite MCP Server with DB path: Chinook_Sqlite.sqlite
+2025-01-29 02:18:47,067 - mcp_sqlite_server - DEBUG - Initializing database connection
+2025-01-29 02:18:47,068 - mcp_sqlite_server - DEBUG - Registering handlers
+2025-01-29 02:18:47,072 - mcp_sqlite_server - INFO - Server running with stdio transport
+2025-01-29 02:18:47,079 - mcp_sqlite_server - DEBUG - Executing query: SELECT name FROM sqlite_master WHERE type='table'
+2025-01-29 02:18:47,080 - mcp_sqlite_server - DEBUG - Read query returned 11 rows
+2025-01-29 02:18:47,082 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Album)
+2025-01-29 02:18:47,083 - mcp_sqlite_server - DEBUG - Read query returned 3 rows
+2025-01-29 02:18:47,085 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Artist)
+2025-01-29 02:18:47,085 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:18:47,088 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Customer)
+2025-01-29 02:18:47,089 - mcp_sqlite_server - DEBUG - Read query returned 13 rows
+2025-01-29 02:18:47,090 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Employee)
+2025-01-29 02:18:47,091 - mcp_sqlite_server - DEBUG - Read query returned 15 rows
+2025-01-29 02:18:47,093 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Genre)
+2025-01-29 02:18:47,093 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:18:47,095 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Invoice)
+2025-01-29 02:18:47,096 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:18:47,099 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(InvoiceLine)
+2025-01-29 02:18:47,099 - mcp_sqlite_server - DEBUG - Read query returned 5 rows
+2025-01-29 02:18:47,101 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(MediaType)
+2025-01-29 02:18:47,101 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:18:47,103 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Playlist)
+2025-01-29 02:18:47,104 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:18:47,106 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(PlaylistTrack)
+2025-01-29 02:18:47,107 - mcp_sqlite_server - DEBUG - Read query returned 2 rows
+2025-01-29 02:18:47,109 - mcp_sqlite_server - DEBUG - Executing query: PRAGMA table_info(Track)
+2025-01-29 02:18:47,109 - mcp_sqlite_server - DEBUG - Read query returned 9 rows
+2025-01-29 02:19:02,285 - mcp_sqlite_server - DEBUG - Executing query: SELECT * FROM Invoice
+ORDER BY Total DESC
+LIMIT 10;
+2025-01-29 02:19:02,286 - mcp_sqlite_server - DEBUG - Read query returned 10 rows
+2025-01-29 02:19:02,289 - mcp_sqlite_server - DEBUG - Synthesizing memo with 1 insights
+2025-01-29 02:19:02,289 - mcp_sqlite_server - DEBUG - Generated basic memo format
